@@ -3,4 +3,4 @@ project(Mercury-Shelves-Manager)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Mercury-Shelves-Manager src/main.cpp)
+add_executable(Mercury-Shelves-Manager src/main.cpp src/arduino/serial.cpp src/arduino/serial.h)
